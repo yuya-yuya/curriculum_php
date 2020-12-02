@@ -1,0 +1,68 @@
+/* resetcss */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix::after { 
+  content: ''; 
+  display: block; 
+  clear: both;
+}
+
+/* ヘッダー開始 */
+.header{
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+/* ヘッダー終了 */
+
+.left{
+  float: left;
+  width: 250px;
+  height: 250px;
+}
+
+.right{
+  float: left;
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+
+.left-left{
+  float: left;
+  width: 100px;
+  height: 150px;
+  background-color: #dbd403;
+}
+
+.left-upper{
+  float: left;
+  width: 150px;
+  height: 50px;
+  background-color: #8c2727;
+}
+
+.left-lowwer{
+  float: left;
+  width: 150px;
+  height: 100px;
+  background-color: #ff9e6b;
+}
+
+.left-bottom{
+  float: left;
+  width: 250px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+/* フッダー開始 */
+.footer{
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
+/* フッダー終了 */
