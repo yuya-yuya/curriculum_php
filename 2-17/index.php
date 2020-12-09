@@ -8,7 +8,7 @@ while($sum <= 40){
   $sum = $sum + $num; 
   $counter++; 
   if($sum <= 40){
-  printf("%d回目 = %d",$counter,$sum);
+  printf("%d回目 = %d",$counter,$num);
   echo "<br>";
   }else{
     $counter--;
@@ -27,7 +27,7 @@ function greeting ($x){
   }elseif(12 <= $x && $x <= 17){
     echo "こんにちは";
   }else{
-    echo ”こんばんは”;
+    echo "こんばんは";
   }
 }
 
