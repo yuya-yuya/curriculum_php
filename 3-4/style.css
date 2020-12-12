@@ -1,0 +1,48 @@
+/* resetcss */
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.clearfix::after { 
+  content: ''; 
+  display: block; 
+  clear: both;
+}
+
+/* ヘッダー開始 */
+.header-left{
+  float: left;
+  height: 120px;
+  width: 200px;
+  background-color: #add8e6;
+}
+
+.header-right{
+  float: left;
+  height: 120px;
+  width: 1000px;
+}
+
+.header-right-upper{
+  float: left;
+  height: 60px;
+  width: 1000px;
+  background-color: #87ceeb;
+}
+
+.header-right-lowwer{
+  float: left;
+  height: 60px;
+  width: 1000px;
+  background-color: #00ffff;
+}
+/* ヘッダー終了 */
+
+/* フッダー開始 */
+.footer{
+  height: 50px;
+  width: 1200px;
+  background-color: #00ced1;
+}
+/* フッダー終了 */

@@ -1,0 +1,5 @@
+1. PostgreSQL・Oracle SQL
+Oracle SQLはOracle社が開発・販売する商用RDBMSで、複数のユーザーが同一の表の別の行に同時にアクセスできたり、災害時やデータ破損時などあらゆる障害からデータベースを保護し、サービスの継続を可能にするシステムが存在しているなどの特徴がある。PostgreSQLはPostgreSQL Global Development Groupによって開発が行われており、ストレージの管理方法が「追記型」のため、既存のデータの書き換えを行うことなく空いている領域を使って更新データを追記しているなどの特徴がある。
+2. TortoiseGit・TortoiseSVN
+3. 外部設計・内部設計
+
