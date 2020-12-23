@@ -81,43 +81,44 @@
 }
 
 .right-box1{
-  float: left;
+  /* float: left; */
   border-style: solid #ffffff;
   width: 140px;
   height: 50px;
   background-color: #ff863f;
-  position: relative;
+  margin: 50px 50px 10px 100px;
+  /* position: relative;
   top: 40px;
   left: 40px;
   right: 60px;
-  bottom: 10px;
+  bottom: 10px; */
 }
 
 .right-box2{
-  float: left;
+  /* float: left; */
   border-style: solid #ffffff;
   width: 140px;
   height: 50px;
-  background-color: #ff863f;
-  position: relative;
+  background-color: red;
+  /* position: relative;
   top: 10px;
   left: 40px;
   right: 60px;
-  bottom: 10px;
+  bottom: 10px; */
 }
 
 .right-box3{
-  float: left;
+  /* float: left; */
   border-style: solid #ffffff;
   width: 140px;
   height: 50px;
   background-color: #ff863f;
-  position: relative;
+  /* position: relative;
   top: 10px;
   left: 40px;
   right: 60px;
   bottom: 40px;
-}
+} */
 /* 右ボックス終了 */
 
 .footer{
