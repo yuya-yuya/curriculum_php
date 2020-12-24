@@ -48,17 +48,22 @@ if(isset($_POST["login"])){
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style_login.css">
+  <link rel="stylesheet" href="login.css">
 </head>
 <body>
-  <h1 id="user_regi">ログイン画面</h1>
-  <div id="new_user">新規ユーザー登録</div>
+<div class="header">
+  <h3 class="user_regi">ログイン画面</h3>
+  <div class="new_user">新規ユーザー登録</div>
+</div>
+
+<div class="main">
   <form method="POST" action="">
     <div class="wrap">
-      <input type="text" name="name" id="name" placeholder="ユーザー名"><br>
-      <input type="text" name="password" id="password" placeholder="パスワード"><br>
-      <input type="submit" value="ログイン" id="login" name="login">
+      <input type="text" name="name" class="name" placeholder="ユーザー名"><br>
+      <input type="text" name="password" class="password" placeholder="パスワード"><br>
+      <input type="submit" value="ログイン" class="login" name="login">
     </div>
   </form>
+</div>
 </body>
 </html>

@@ -27,16 +27,20 @@ try{
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style_signUP.css">
+  <link rel="stylesheet" href="signUP.css">
 </head>
 <body>
-  <h1 id="user_regi">ユーザー登録画面</h1>
+<div class="header">
+  <h3>ユーザー登録画面</h3>
+</div>
+
+<div class="main">
   <form method="POST" action="">
-    <div class="wrap">
-      <input type="text" name="name" id="name" placeholder="ユーザー名"><br>
-      <input type="text" name="password" id="password" placeholder="パスワード"><br>
-      <input type="submit" value="新規登録" id="signUp" name="signUp">
+      <input type="text" name="name" class="name" placeholder="ユーザー名"><br>
+      <input type="text" name="password" class="password" placeholder="パスワード"><br>
+      <input type="submit" value="新規登録" class="signUp" name="signUp">
     </div>
   </form>
+</div>
 </body>
 </html>

@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.main{
+  width: 400px;
+  margin: 10px auto;
+}
+
+.name{
+  width: 300px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.password{
+  width: 300px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.signUp{
+  width: 180px;
+  height: 35px;
+  background-color: #0066ff;
+  color: white;
+  border-radius: 8%;
+  border: 1px solid white;
+  font-size: 15px;
+}

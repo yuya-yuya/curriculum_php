@@ -47,18 +47,28 @@ if(isset($_POST["books"])){
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="books.css">
 </head>
 <body>
-  <h1>本 登録画面</h1>
+<div class="header">
+  <h3>本 登録画面</h3>
+</div>
+
+<div class="main">
   <form method="POST" action="">
-   <input type="text" name="title" id="title" placeholder="タイトル"><br>
-   <input type="text" name="date" id="date" placeholder="発売日">
+   <input type="text" name="title" class="title" placeholder="タイトル"><br>
+   <input type="text" name="date" class="date" placeholder="発売日">
    <p>在庫数</p>
-   <select name="stock" id="stock">
-    <option>1</option>
+   <select name="stock" class="stock">
+    <option>選択してください</option>
+    <?php for($num = 1; $num < 100;$num++){ ?>
+      <option value="<?php echo $num; ?>">
+        <?php echo $num; ?>
+      </option>
+    <?php } ?>
    </select><br>
-   <input type="submit" name="books" value="登録">
+   <input type="submit" name="books" value="登録" class="books">
   </form>
+</div>
 </body>
 </html>
