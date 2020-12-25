@@ -32,11 +32,8 @@
   width: 40px;
   height: 40px;
   background-color: #a9004b;
-  position: relative;
-  top: 10px;
-  left: 10px;
-  right: 110px;
-  border-right:solid 5px white
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .header-inbox2{
@@ -44,11 +41,8 @@
   width: 40px;
   height: 40px;
   background-color: #a9004b;
-  position: relative;
-  top: 10px;
-  left: 10px;
-  right: 60px;
-  border-right:solid 5px white
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .header-inbox3{
@@ -56,11 +50,8 @@
   width: 40px;
   height: 40px;
   background-color: #a9004b;
-  position: relative;
-  top: 10px;
-  left: 10px;
-  right: 60px;
-  border-right:solid 5px white
+  margin-top: 10px;
+  margin-left: 10px;
 }
 /* ヘッダー終了 */
 
@@ -81,44 +72,31 @@
 }
 
 .right-box1{
-  /* float: left; */
-  border-style: solid #ffffff;
+  border:3px solid #ffffff;
   width: 140px;
   height: 50px;
   background-color: #ff863f;
-  margin: 50px 50px 10px 100px;
-  /* position: relative;
-  top: 40px;
-  left: 40px;
-  right: 60px;
-  bottom: 10px; */
+  margin-top: 40px;
+  margin-left: 40px;
 }
 
 .right-box2{
-  /* float: left; */
-  border-style: solid #ffffff;
-  width: 140px;
-  height: 50px;
-  background-color: red;
-  /* position: relative;
-  top: 10px;
-  left: 40px;
-  right: 60px;
-  bottom: 10px; */
-}
-
-.right-box3{
-  /* float: left; */
-  border-style: solid #ffffff;
+  border:3px solid #ffffff;
   width: 140px;
   height: 50px;
   background-color: #ff863f;
-  /* position: relative;
-  top: 10px;
-  left: 40px;
-  right: 60px;
-  bottom: 40px;
-} */
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.right-box3{
+  border:3px solid #ffffff;
+  width: 140px;
+  height: 50px;
+  background-color: #ff863f;
+  margin-top: 10px;
+  margin-left: 40px;
+} 
 /* 右ボックス終了 */
 
 .footer{
@@ -126,3 +104,4 @@
   height: 100px;
   background-color: #d98d30;
 }
+
