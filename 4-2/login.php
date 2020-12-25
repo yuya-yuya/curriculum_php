@@ -48,12 +48,13 @@ if(isset($_POST["login"])){
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="login1.css">
 </head>
 <body>
 <div class="header">
   <h3 class="user_regi">ログイン画面</h3>
-  <div class="new_user">新規ユーザー登録</div>
+  <a href="signUP.php"><input type="submit" value="新規ユーザー登録" class="new_user"></a>
+  </div>
 </div>
 
 <div class="main">
