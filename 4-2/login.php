@@ -61,7 +61,7 @@ if(isset($_POST["login"])){
   <form method="POST" action="">
     <div class="wrap">
       <input type="text" name="name" class="name" placeholder="ユーザー名"><br>
-      <input type="text" name="password" class="password" placeholder="パスワード"><br>
+      <input type="password" name="password" class="password" placeholder="パスワード"><br>
       <input type="submit" value="ログイン" class="login" name="login">
     </div>
   </form>

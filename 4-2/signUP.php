@@ -27,17 +27,18 @@ try{
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="signUP.css">
+  <link rel="stylesheet" href="signUP1.css">
 </head>
 <body>
 <div class="header">
   <h3>ユーザー登録画面</h3>
+  <a href="login.php"><input type="submit" value="ログイン画面" class="login"></a>
 </div>
 
 <div class="main">
   <form method="POST" action="">
       <input type="text" name="name" class="name" placeholder="ユーザー名"><br>
-      <input type="text" name="password" class="password" placeholder="パスワード"><br>
+      <input type="password" name="password" class="password" placeholder="パスワード"><br>
       <input type="submit" value="新規登録" class="signUp" name="signUp">
     </div>
   </form>

@@ -9,6 +9,17 @@
   margin: 10px auto;
 }
 
+.login{
+  width: 100px;
+  height: 35px;
+  margin-left: 40px;
+  background-color: #009999;
+  color: white;
+  border-radius: 8%;
+  border: 1px solid white;
+  font-size: 15px;
+}
+
 .main{
   width: 400px;
   margin: 10px auto;
