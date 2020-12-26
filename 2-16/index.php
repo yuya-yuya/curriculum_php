@@ -52,6 +52,8 @@ if(is_writable($file)){
 
 echo "<br>";
 
+$file = "test2.txt";
+
 if(is_readable($file)){
   $fp = fopen($file,"r");
   while ($line = fgets($fp)) {
