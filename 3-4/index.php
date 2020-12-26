@@ -12,7 +12,7 @@ $user_datas = $x ->getUserData();
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
 </head>
 <body>
   <div class="wrap"></div>
@@ -22,18 +22,31 @@ $user_datas = $x ->getUserData();
      </div>
      <div class="header-right clearfix">
        <div class="header-right-upper">
-         <?php foreach($user_datas as $u_data){; ?>
-          <p>ようこそ <?php echo $u_data['last_name'];?> さん</P>
-         <?php } ;?>
+         <p class="name">
+         <?php  
+         $first_name =$user_datas[first_name];
+         $last_name = $user_datas[last_name];
+
+         printf("ようこそ %s%s さん",$last_name,$first_name);
+         ?>
+         </p>
        </div>
-       <div class="header-right-lowwer"></div>
+       <div class="header-right-lowwer">
+         <p class="dates">
+         <?php
+          $dates = date("Y-m-d H:i:s", time());
+
+          printf("最終ログイン日: %s",$dates);
+         ?>
+         </p>
+       </div>
      </div>
    </div>
    <div class="contents">
-    <table>
+    <table border="0"> 
      <thead>
-       <tr>
-         <th class>記事ID</th>
+       <tr class="table-head">
+         <th>記事ID</th>
          <th>タイトル</th>
          <th>カテゴリ</th>
          <th>本文</th>
@@ -63,6 +76,8 @@ $user_datas = $x ->getUserData();
      </tbody>
     </table>
    </div>
-   <div class="footer"></div>
+   <div class="footer">
+     Y&I group.inc
+   </div>
 </body>
 </html>
