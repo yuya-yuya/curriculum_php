@@ -33,7 +33,7 @@
 // $array = explode("@",$atstr);
 // var_dump($array);
 
-$alp = ["a","d","c","b","e","f"];
+$alp = ["a","c","d","b","e","f"];
 
 echo count($alp);
 
